@@ -1,0 +1,77 @@
+*{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+.PARANT1{margin-left: 50px;
+         margin-right: 50PX;
+display: flex;justify-content: space-between;}
+
+.CHILD1,.CHILD2{display: flex; justify-content: space-between;}
+.GRANDCHILD{padding-left: 15px; padding-right: 15px;text-align: center;margin-top: 5px;} 
+
+.PARANT2{
+    background-color: white; height: 50PX;margin-left: 80px;
+}
+
+#BIGPIC{
+    height: 550px;
+    display: flex;
+    justify-content: flex-end;
+} 
+
+
+    .PARANT3{display: flex;
+        justify-content: space-between;
+    }
+
+#HEAD{ 
+    margin-left: 50px;
+    color:hsl(189, 8%, 33%);
+    font-size:55px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#GOOGLE{
+    align-items: flex-start;
+    
+}
+
+.P3CHILD2{
+    margin-left: 50px;
+position: absolute;
+top: 300PX; 
+
+}
+
+.P3CHILDGRAND{ border:solid 1.4PX black;color: black;padding: 10PX ;border-radius: 30PX;width: 400PX; text-align: center;
+}
+P{text-align: center; font-size: small;}
+
+
+#EMAIL:hover{background-color: rgb(247, 243, 243);}
+#GOOGLE:hover{
+    outline-style: solid;
+    outline-color: #575f61;
+    outline-width: 1px;
+   
+}
+
+    #JOINNOW{border-radius: 30px; margin: auto; padding-top: 20PX; color: black;font-size: large;}
+    #JOINNOW:hover{background-color:rgb(247, 243, 243) ;}
+    #SIGNIN{border-radius: 300px;  ;color: rgb(26, 110, 162);border: solid rgb(26, 110, 162);border-width: 1.5px;}
+    #SIGNIN:hover{background-color:#ecf4fc ;}
+a:link{text-decoration:none;}
+.A{color: black;}
+#a,#b,#c,#d,#e,#f{color: #575f61; margin-bottom: 10px ;}
+#a:hover{color: black;}
+#b:hover{color: black;}
+#c:hover{color: black;}
+#d:hover{color: black;}
+#e:hover{color: black;}
+#f:hover{color: black;}
+
+#SIGNIN{padding: 12px; width: 70px;
+margin-top: 10px;margin-left: 8px;}
+#JOINNOW{margin-top: 10px;
+    padding: 10px;font-size:medium; width:80px;margin-left: 6px ;}
+span:hover{text-decoration: underline;}
+#f{ border-left: solid .1px #575f61;border-right:solid .1px #575f61;;}
